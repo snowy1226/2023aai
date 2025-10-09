@@ -1,17 +1,17 @@
 //week05-1.cpp
-//å­¸ç¿’è¨ˆç•« built-in functions 58.
+//¾Ç²ß­pµe built-in functions 58.
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        stringstream ss(s); //æŠŠå­—ä¸²,è®Šæˆä¹‹å‰æ•™çš„cin iostream
-        string word; //å­—ä¸²çš„word
-        //ss >> word; //åƒä¹‹å‰æ•™çš„ cin >> word
-        //cont << "è®€åˆ°äº†" << word << "/n";
-        while( ss >> word ){ //ä¸€ç›´è®€è¿‘ä¾†
-            //è£¡é¢ç”šéº¼éƒ½ä¸åš
+        stringstream ss(s); //§â¦r¦ê,ÅÜ¦¨¤§«e±Ðªºcin iostream
+        string word; //¦r¦êªºword
+        //ss >> word; //¹³¤§«e±Ðªº cin >> word
+        //cont << "Åª¨ì¤F" << word << "/n";
+        while( ss >> word ){ //¤@ª½Åªªñ¨Ó
+            //¸Ì­±¬Æ»ò³£¤£°µ
         }
-        return word.length(); //æœ€å¾Œçš„å­—çš„é•·åº¦ //return 0; 
+        return word.length(); //³Ì«áªº¦rªºªø«× //return 0;
 
-        
+
     }
 };
